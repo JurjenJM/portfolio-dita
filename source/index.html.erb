@@ -243,20 +243,22 @@
                 <p class="content-detail">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                 </p>
-
               </div>
               <div class="col-md-9 content-right">
-                <form>
+                <form action="https://formspree.io/jurjenmunneke@me.com"
+                      method="POST">
                   <div class="group">
-                    <input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Naam</label>
+                    <input required="" type="text" name="naam"><span class="highlight"></span><span class="bar"></span><label>Naam</label>
                   </div>
                   <div class="group">
-                    <input required="" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label>
+                    <input required="" type="email" name="_replyto"><span class="highlight"></span><span class="bar"></span><label>Email</label>
                   </div>
                   <div class="group">
-                    <textarea required=""></textarea><span class="highlight"></span><span class="bar"></span><label>Bericht</label>
+                    <textarea required="" name="bericht"></textarea><span class="highlight"></span><span class="bar"></span><label>Bericht</label>
                   </div>
-                  <input id="sendMessage" name="sendMessage" type="submit" value="Verstuur Bericht">
+                  <input id="sendMessage" type="submit" value="Verstuur Bericht">
+                  <input type="hidden" name="_next" value="/" />
+                  <input type="hidden" name="_subject" value="Bericht via ditamunneke.nl" />
                 </form>
               </div>
             </div>
