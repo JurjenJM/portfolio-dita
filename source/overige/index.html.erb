@@ -20,16 +20,27 @@
     <!-- Main -->
       <div id="main">
 
+        <!-- 'Back to home' button -->
+          <% link_to '/' do %>
+            <button type="button" class="back-to-home">
+              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              ditamunneke.nl
+            </button>
+          <% end %>
+
         <!-- Header -->
           <header id="header">
-            <h1>Overige</h1>
-            <p>Just another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
-            <ul class="icons">
-              <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-              <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-              <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-              <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-            </ul>
+            <h1>Portfolio</h1>
+            <table style="width:100%">
+              <tr>
+                <td><%= link_to 'Acryl en olieverf', '/acryl-olieverf' %></td>
+                <td><%= link_to 'Klei en brons', '/klei-brons' %></td>
+              </tr>
+              <tr>
+                <td><%= link_to 'Potlood en krijt', '/potlood-krijt' %></td>
+                <td class="current-category"><%= link_to 'Overige', '/overige' %></td>
+              </tr>
+            </table>
           </header>
 
         <!-- Thumbnail -->

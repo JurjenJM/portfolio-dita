@@ -745,6 +745,14 @@
 			left: 0;
 		}
 
+    #main a {
+      border-bottom: none;
+    }
+
+    .back-to-home {
+      margin: 20px 106px 5px 0px;
+    }
+
 		body.fullscreen #main {
 			visibility: hidden;
 			right: -22.5em;
@@ -811,13 +819,28 @@
 /* Header */
 
 	#header {
-		padding: 3em 2.25em 1.75em 2.25em ;
+		margin: 1em 2.25em 1.75em 2.25em;
+    border-style: solid;
+    border-width: 1px;
 	}
 
 		#header h1 {
-			font-size: 2.25em;
+			font-size: 1.50em;
 			font-weight: 700;
+      text-align: center;
+      padding-top: 20px;
 		}
+
+/* Navigation table */
+    #header td {
+      padding: 12px;
+      color: #555;
+      text-align: center;
+    }
+
+    #header .current-category {
+      color: #00D3B7;
+    }
 
 /* Footer */
 

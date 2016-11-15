@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="../lens/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="../lens/css/main.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <!--[if lte IE 8]><link rel="stylesheet" href="../lens/css/ie8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="../lens/css/ie9.css" /><![endif]-->
     <noscript><link rel="stylesheet" href="../lens/css/noscript.css" /></noscript>
@@ -20,16 +21,27 @@
     <!-- Main -->
       <div id="main">
 
+        <!-- 'Back to home' button -->
+          <% link_to '/' do %>
+            <button type="button" class="back-to-home">
+              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              ditamunneke.nl
+            </button>
+          <% end %>
+
         <!-- Header -->
           <header id="header">
-            <h1>Acryl en olieverf</h1>
-            <p>Just another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
-            <ul class="icons">
-              <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-              <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-              <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-              <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-            </ul>
+            <h1>Portfolio</h1>
+            <table style="width:100%">
+              <tr>
+                <td class="current-category"><%= link_to 'Acryl en olieverf', '/acryl-olieverf' %></td>
+                <td><%= link_to 'Klei en brons', '/klei-brons' %></td>
+              </tr>
+              <tr>
+                <td><%= link_to 'Potlood en krijt', '/potlood-krijt' %></td>
+                <td><%= link_to 'Overige', '/overige' %></td>
+              </tr>
+            </table>
           </header>
 
         <!-- Thumbnail -->
