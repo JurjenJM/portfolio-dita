@@ -750,7 +750,21 @@
     }
 
     .back-to-home {
-      margin: 20px 106px 5px 0px;
+      margin: 24px 121px 5px 0px;
+    }
+
+    .logo-nav {
+        padding: 6px 0 10px 0;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        width: 45px;
+        display: block;
+        position: absolute;
+        right: 38px;
+        top: 14px;
     }
 
 		body.fullscreen #main {
