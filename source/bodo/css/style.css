@@ -62,7 +62,7 @@ body {
   background-color: #fff;
 }
 a {
-  color: #2f2f2f;
+/*  color: #2f2f2f;*/
   text-decoration: none;
   transition: ease .6s;
   -webkit-transition: ease .6s;
@@ -72,7 +72,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #818181;
+  color: #9AC0FA;
 }
 a:focus {
   outline: none;
