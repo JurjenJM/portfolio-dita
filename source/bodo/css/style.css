@@ -940,9 +940,10 @@ ul.portfolio-image li .desc{
   min-height: 480px;
 }
 .wrap-about .w-content{
+  width: 90%;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 35%;
   transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
