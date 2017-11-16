@@ -764,11 +764,11 @@
         -ms-transition: all 0.3s;
         -o-transition: all 0.3s;
         transition: all 0.3s;
-        width: 45px;
+        width: 53px;
         display: block;
         position: absolute;
-        right: 38px;
-        top: 14px;
+        right: 36px;
+        top: 17px;
     }
 
 		body.fullscreen #main {
