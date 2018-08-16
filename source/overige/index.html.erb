@@ -60,71 +60,13 @@
 
         <!-- Thumbnail -->
           <section id="thumbnails">
-            <article>
-              <a class="thumbnail" href="../lens/images/overige/fulls/10.jpg" data-position="center"><img src="../lens/images/overige/thumbs/10.jpg" alt="" /></a>
-              <h2>Duinen klein</h2>
-              <p>Collage, beschilderd met acrylverf</p>
-            </article>
-            <article>
-              <a class="thumbnail" href="../lens/images/overige/fulls/9.jpg"><img src="../lens/images/overige/thumbs/9.jpg" alt="" /></a>
-              <h2>Bewerking modeltekening</h2>
-              <p>Met acryl en lijm, 41x58</p>
-            </article>
-            <article>
-              <a class="thumbnail" href="../lens/images/overige/fulls/8.jpg" data-position="center"><img src="../lens/images/overige/thumbs/8.jpg" alt="" /></a>
-              <h2>Bewerking  modeltekening</h2>
-              <p>Met geplakt crêpepapier, 32x50</p>
-            </article>
-            <article>
-              <a class="thumbnail" href="../lens/images/overige/fulls/7.jpg"><img src="../lens/images/overige/thumbs/7.jpg" alt="" /></a>
-              <h2>Bewerking  modeltekening</h2>
-              <p>Met geplakt crêpepapier, 29x41</p>
-            </article>
-            <article>
-              <a class="thumbnail" href="../lens/images/overige/fulls/6a.jpg" data-position="center"><img src="../lens/images/overige/thumbs/6a.jpg" alt="" /></a>
-              <h2>Knipwerk à la Matisse</h2>
-              <p></p>
-            </article>
-            <article>
-              <a class="thumbnail" href="../lens/images/overige/fulls/6b.jpg"><img src="../lens/images/overige/thumbs/6b.jpg" alt="" /></a>
-              <h2>Knipwerk à la Matisse</h2>
-              <p></p>
-            </article>
-            <article>
-              <a class="thumbnail" href="../lens/images/overige/fulls/5.jpg"><img src="../lens/images/overige/thumbs/5.jpg" alt="" /></a>
-              <h2>Tweeluik 2/2, Gedragen</h2>
-              <p>Collage met acryl, 32,5x50</p>
-            </article>
-            <article>
-              <a class="thumbnail" href="../lens/images/overige/fulls/4.jpg"><img src="../lens/images/overige/thumbs/4.jpg" alt="" /></a>
-              <h2>Tweeluik 1/2 Beschermd</h2>
-              <p>Collage met acryl, 32,5x50</p>
-            </article>
-            <article>
-              <a class="thumbnail" href="../lens/images/overige/fulls/3.jpg"><img src="../lens/images/overige/thumbs/3.jpg" alt="" /></a>
-              <h2>Omarming</h2>
-              <p>Collage, acryl en krijt, 24x32</p>
-            </article>
-            <article>
-              <a class="thumbnail" href="../lens/images/overige/fulls/2.jpg"><img src="../lens/images/overige/thumbs/2.jpg" alt="" /></a>
-              <h2>Kleurenfeest</h2>
-              <p>Collage, acryl en krijt, 24x32</p>
-            </article>
-            <article>
-              <a class="thumbnail" href="../lens/images/overige/fulls/1.jpg"><img src="../lens/images/overige/thumbs/1.jpg" alt="" /></a>
-              <h2>Grijstinten</h2>
-              <p>Oost-Indische inkt en potlood, 40x50 </p>
-            </article>
-            <article>
-              <a class="thumbnail" href="../lens/images/overige/fulls/1a.jpg"><img src="../lens/images/overige/thumbs/1a.jpg" alt="" /></a>
-              <h2>Grijstinten</h2>
-              <p>Oost-Indische inkt en potlood, 13x17 </p>
-            </article>
-            <article>
-              <a class="thumbnail" href="../lens/images/overige/fulls/1b.jpg"><img src="../lens/images/overige/thumbs/1b.jpg" alt="" /></a>
-              <h2>Grijstinten</h2>
-              <p>Oost-Indische inkt en potlood, 13x17 </p>
-            </article>
+            <% data.Overige_photos_info.reverse_each do |photo, infos| %>
+              <article>
+                <a class="thumbnail" href="../lens/images/overige/fulls/<%= photo %>.jpg" data-position="center"><img src="../lens/images/overige/thumbs/<%= photo %>.jpg" alt="" /></a>
+                <h2><%= infos.title %></h2>
+                <p><%= infos.description %></p>
+              </article>
+            <% end %>
           </section>
 
         <!-- Footer -->
