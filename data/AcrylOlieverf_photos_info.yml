@@ -1,119 +1,254 @@
 1:
-  title: Toscane
-  description: Pastelkrijt, 30x40
+  title: Ontkiemd
+  description: Detail
 2:
-  title: Duinroos
-  description: Vlieland, in gastenboek
+  title: Ontkiemd
+  description: Acryl op doek, 40x60
 3:
-  title: Ezel
-  description: 1e opdracht op 'schilderles', potlood
-4a:
-  title: Stilleven met uien
-  description: Naar van Gogh, pastelkrijt, 24x32
+  title: Winkel in Jemen
+  description: Acryl op doek, 50x60
 4:
-  title: Compositie met geel tafeltje
-  description: Naar Piet Sebens, pastelkrijt, 32x38
+  title: Weissenbruchstraat-1
+  description:
 5:
-  title: Modeltekenen
-  description: 1e keer, potlood, 46x64
+  title: Weissenbruchstraat-2
+  description:
 6:
-  title: Henk en Nel
-  description: Potlood, 15x15
+  title: Helm
+  description: Acryl op papier, 10x15
 7:
-  title: Tuintafel
-  description: Naar Bonnard, pastelkrijt, 27x35
+  title: Naar model
+  description: Acryl op papier, 47x63
+8:
+  title: Opzienbarend
+  description: Acryl op doek, 50x70
 9:
-  title: Modeltekenen
-  description: Potlood, 15x22
+  title: Brandschilderen
+  description: Detail
 10:
-  title: Modeltekenen
-  description: Potlood, 15x22
+  title: Brandschilderen
+  description: Detail
 11:
-  title: Modeltekenen
-  description: Potlood, 15x22
+  title: Brandschilderen
+  description: Acryl op doek, 100x100
 12:
-  title: Modeltekenen
-  description: Potlood, 15x22
+  title: Moeders
+  description: Acryl op doek, 100x100
 13:
-  title: Modeltekenen
-  description: Potlood, 15x22
+  title: Schaap met vijf poten
+  description: Detail
 14:
-  title: Modeltekenen
-  description: Potlood, 15x22
+  title: Schaap met vijf poten
+  description: Acryl op doek, 20x30
 15:
-  title: Modeltekenen
-  description: Potlood, 15x22
+  title: Kind met pop
+  description: Olieverf op doek, 50x60
 16:
-  title: Modeltekenen
-  description: Potlood, 15x22
+  title: Twee dames kubistisch
+  description: Olieverf op doek, 50x50
 17:
-  title: Modeltekenen
-  description: Potlood, 15x22
+  title: Boogie woogie
+  description: Acryl op doek, 40x50
 18:
-  title: Modeltekenen
-  description: Potlood, 15x22
+  title: Eerste schoentjes
+  description: Ei-tempera op canvasboard, 24x30
 19:
-  title: Modeltekenen
-  description: Potlood, 24x34
+  title: Naar van Gogh
+  description: Olieverf op doek, 60x60
 20:
-  title: Modeltekenen
-  description: Potlood, 24x34
+  title: Engel
+  description: Kerst 2012, acryl op doek, 50x60
 21:
-  title: Modeltekenen
-  description: Potlood, 24x34
+  title: Simpelveld
+  description: Acryl op papier, 29x42
 22:
-  title: Modeltekenen
-  description: Potlood, 50x65
+  title: Simpelveld
+  description: Acryl op papier, 24x32
 23:
-  title: Modeltekenen
-  description: Potlood, 50x65
+  title: Simpelveld
+  description: Acryl op papier, 20x29
 24:
-  title: Modeltekenen
-  description: Potlood, 50x65
+  title: Simpelveld 
+  description: Acryl op papier, 20x29
 25:
-  title: Modeltekenen
-  description: Potlood, 50x65
+  title: Stilleven naar Helmantel
+  description: Acryl op doek, 100x100
 26:
-  title: Modeltekenen
-  description: Potlood, 50x65
+  title: Vrij naar Helmantel
+  description: Acryl op papier, 50x50
 27:
-  title: Modeltekenen
-  description: Potlood, 50x65
+  title: Zonder moeder
+  description: Acryl op papier, 20x30
 28:
-  title: Stilleven
-  description: Pastelkrijt, 21x29
+  title: Abstractie
+  description: Acryl op papier, 20x29
 29:
-  title: Houten speelgoed, Poes
-  description: Aquarel, 12x12
+  title: Familieportret met moeder
+  description: Acryl op papier, 50x70
 30:
-  title: Houten speelgoed, Eend
-  description: Aquarel, 15x15
+  title: Terzijde
+  description: Acryl op papier, 35x50
 31:
-  title: Houten speelgoed, Poppenwagen
-  description: Aquarel, 15x15
+  title: Terug tredend
+  description: Acryl op papier, 35x50
 32:
-  title: Geit
-  description: Aquarel, 15x15
+  title: Naar voren tredend
+  description: Acryl op papier, 35x50
 33:
-  title: Pop
-  description: Aquarel, 10x15
+  title: Bethlehem
+  description: Kerst 2013, acryl op papier, 24x32
 34:
-  title: Pop
-  description: Aquarel, 10x15
+  title: Naar Bonnard
+  description: Acryl op papier
 35:
-  title: Zwangerencontrole
-  description: Aquarel, 15x30
+  title: Spoorlijn door straatje in Vietnam
+  description: Acryl op doek, 50x50
 36:
-  title: Nieuw leven
-  description: Aquarel, 15x30
+  title: Verliefd
+  description: Olieverf op doek, 60x60
 37:
-  title: 1977 – 2017
-  description: Aquarel, 16x22
+  title: F&J schets
+  description: Acryl op papier
 38:
-  title: Beer
-  description: Aquarel, 15x15
+  title: F&J
+  description: Acryl op doek, 100x100
 39:
-  title: Tollen
-  description: Aquarel, 16x15
+  title: Engelenschaar
+  description: Kerst 2014, acryl op papier, 50x50
+40:
+  title: Ingebed
+  description: Acryl op doek, 50x60
+41:
+  title: Je weg vinden
+  description: Acryl op doek, 40x40
+42:
+  title: De kus, naar Klimt
+  description: Acryl op doek, 100x100
+43:
+  title: Ontpopping
+  description: Acryl op papier, maat 47x62
+44:
+  title: Marokko
+  description: Acryl op doek, 50x60
+45:
+  title: Ons gezin
+  description: Olieverf op doek, 60x60
+46:
+  title: Peren 2
+  description: Acryl op doek, 50x60
+47:
+  title: Peren 1
+  description: Acryl op doek, 50x60
+48:
+  title: Verbindend licht
+  description: Acryl op doek, 40x50
+49:
+  title: Vrij!
+  description: Acryl op doek, 50x60
+50:
+  title: Stilleven met appels
+  description: Acryl op doek, 40x50
+51:
+  title: Voorstudie duinen
+  description: Acryl op doek, 60x60
+52:
+  title: Voorstudie duinen
+  description: Acryl op doek, 40x40
+53:
+  title: Voorstudie duinen
+  description: Acryl op doek, 40x40
+54:
+  title: Voorstudie duinen
+  description: Acryl op doek, 20x40
+55:
+  title: Voorstudie duinen
+  description: Acryl op doek, 20x40
+56:
+  title: Voorstudie duinen
+  description: Acryl op doek, 20x40
+57:
+  title: Duinen
+  description: Acryl op doek, detail
+58:
+  title: Duinen
+  description: Acryl op doek, detail
+59:
+  title: Duinen
+  description: Acryl op doek, detail
+60:
+  title: Duinen
+  description: Acryl op doek, 80x160
+61:
+  title: Stilleven met appels en peer
+  description: Olieverf op doek, 40x50
+62:
+  title: Ongezien
+  description: Olieverf op doek, 50x60
+63:
+  title: Kerstverbeelding 2016
+  description: Acryl op linnen, 40x40
+64:
+  title: Stier in stijl
+  description: Olieverf op linnen 60x40
+65:
+  title: Beschermengel
+  description: Acryl op linnen, 40x50
+66:
+  title: Dromerig
+  description: Acryl op doek, 20x60
+67:
+  title: Gouden bergen
+  description: Acryl op doek, 20x60
+68:
+  title: Wolken
+  description: Olieverf op linnen, 50x60
+69:
+  title: Glas water
+  description: Olieverf op linnen, 30x40
+70:
+  title: Wijnglazen
+  description: Olieverf op linnen, 40x60
+71:
+  title: Ontferming
+  description: Acryl op linnen, 40x40
+72:
+  title: Nu 65
+  description: Olieverf op linnen, 30x40
+73:
+  title: Samen sterk
+  description: Olieverf op linnen, 40x60
+74:
+  title: Dame met hoedje
+  description: Olieverf op linnen, 40x40
+75:
+  title: Getelde zegeningen
+  description: Acryl op linnen, 100x100
+76:
+  title: Poster van Stella Maris
+  description:
+77:
+  title: Paulus
+  description: Acryl op doek, 50x70
+78:
+  title: In de rij (voorstudie)
+  description: Acryl op papier, 46x36
+79:
+  title: Zwangeren in Mozambique
+  description: Olieverf op linnen, 100x50
+80:
+  title: Het mysterie van kerst
+  description: Acryl op linnen, 50x70
+81:
+  title: Het is mij best
+  description: Olieverf op linnen, 50x60
+82:
+  title: Ik doe mijn best
+  description: Olieverf op linnen, 50x60
+83:
+  title: Het licht breekt door
+  description: Acryl op doek, 50x70
+84:
+  title: Poster Stella Maris
+  description:
 
 
